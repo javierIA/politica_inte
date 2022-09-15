@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTT0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*modificaciones al estilo del template*/
+
+.header-area .header-bottom .logo {
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    margin-right: 10px;
+}
+.slider-height{
+    min-height: 640px;
+}
+.slider-area .hero__caption h1 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 51px;
+    margin-left: 20px;
+    margin-top: -30px;
+    color: #033454;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.slider-area .hero__caption span img{
+    width: 500px;
+    margin-left: 15px;
+}
+.slider-area .hero__caption .hero__btn a{
+    margin-left: 130px;
+    background: #F07A20;
+    width: 280px;
+    font-family: "Open Sans Light";
+}
+.hero__caption{
+    padding-top: 100px;
+}
+.header-area .header-top .header-info-left ul li {
+    font-family: "Century Gothic";
+}
+.header-area .header-top .header-info-right ul li a{
+    font-family: "Century Gothic";
+}
+.header-area .header-bottom .menu-wrapper .main-menu ul li a {
+    font-family: "Open Sans Light";
+}
+.header-area .header-top .header-left-social .header-social {
+    background: #003656;
+}
+.header-area .header-bottom .menu-wrapper .form-box .search-icon i {
+    background: #003656;
+}
+/*loader*/
+.preloader .preloader-img img {
+    max-width: 85px;
+}
+
+.img-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.all_text{
+
+}
+
+@media (max-width: 767px) {
+    .margin-top-mobile {
+        margin-top: -330px;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    .login_margin{
+        padding-top: 100px;
+    }
+}
+
+
+
+

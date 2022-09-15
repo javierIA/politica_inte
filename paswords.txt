@@ -1,0 +1,16 @@
+email de customer service
+johnnys.fenix@gmail.com
+johnnysfenix123
+
+database 
+user: root
+password:Johnnysfenix123
+
+ftp
+url: ftp://johnnysfenix.com
+user: u985151422
+password:Johnnysfenix123
+
+administracion del sistema
+user: johkasoufigueroa05@gmail.com
+password: Johnnysfenix123

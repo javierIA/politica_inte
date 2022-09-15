@@ -1,0 +1,9 @@
+<?php
+
+return [
+'status' => true,
+'languages' => [
+    'en' => ['en', 'en_US', false, 'us.png', 'English'],
+    'es' => ['es', 'es_ES', false, 'mx.png', 'Español'],
+]
+];

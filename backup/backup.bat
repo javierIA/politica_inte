@@ -1,0 +1,2 @@
+cd C:\Program Files\PostgreSQL\9.5\bin\
+pg_dump.exe --host LOCALHOST --port 5432 --username "postgres"  --format custom --blobs --encoding UTF8 --verbose --file "C:\xampp\htdocs\politica_integral\backup\political_system.backup" "political_system"

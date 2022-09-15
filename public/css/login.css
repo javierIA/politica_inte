@@ -1,0 +1,167 @@
+.login-close-switch {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #090909;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 1px;
+    font-size: 26px;
+    top: -290px;
+    right: -445px;
+    cursor: pointer;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    font-weight: 300;
+
+}
+.close-container{
+    position: relative;
+}
+.login-model {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("../images/political/front_end/background.jpg");
+    z-index: 99999;
+}
+.login-model-form{
+    text-align: center;
+}
+.login-model-form input {
+    width: 360px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    margin-top: 10px;
+}
+.login-model-form {
+    padding: 0 15px;
+}
+.login-img{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+.login-img img{
+    width: 400px;
+}
+.login-model-form .container{
+    padding-left: 20px;
+    padding-right: 20px;
+    alignment: center;
+}
+.login-model-form .submit-login-btn button{
+    margin-top: 30px;
+    width: 200px;
+    max-height: 10px;
+    background: #f07320;
+}
+.login-model-form .submit-login-btn button::before {
+    background: #c26019;
+}
+
+.key_forget{
+    color: #033454;
+}
+
+/*seleccionar lenguaje*/
+.site-nav-menu-up {
+    display: initial;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.site-nav-menu-up ul {
+    list-style: none;
+    margin-left: -150px;
+}
+
+.site-nav-menu-up ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.site-nav-menu-up ul li a {
+    display: block;
+    /*padding: 32px 16px;*/
+    margin-right: 35px;
+    font-size: 15px;
+    /*font-weight: 600;*/
+    color: white;
+    position: relative;
+}
+
+/*.site-nav-menu-up ul li a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 7px;
+    left: 0;
+    bottom: 0;
+    background: #ffc000;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}*/
+
+.site-nav-menu-up ul li .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 60px;
+    margin-left: 0px;
+    padding: 10px 0 10px;
+    text-align: left;
+    -webkit-box-shadow: 0 15px 50px 1px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 15px 50px 1px rgba(0, 0, 0, 0.13);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.site-nav-menu-up ul li .sub-menu li {
+    display: block;
+    /*opacity: 0.5;*/
+}
+
+.site-nav-menu-up ul li .sub-menu li a {
+    color: black;
+    padding: 8px 25px;
+    text-transform: none;
+    margin-right: 0;
+}
+
+.site-nav-menu-up ul li .sub-menu li a:hover {
+    color: #ffc000;
+    /*opacity: 0;*/
+}
+
+.site-nav-menu-up ul li .sub-menu li a:after {
+    display: none;
+    /*opacity:1;*/
+}
+
+.site-nav-menu-up ul li:hover a:after {
+    width: 100%;
+}
+
+.site-nav-menu-up ul li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0;
+    z-index: 99;
+}
+
+.site-nav-menu-up ul li.active a:after {
+    width: 100%;
+}
+
+
